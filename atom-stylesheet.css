@@ -1,0 +1,137 @@
+
+.gutter {
+    background-color: black !important;
+}
+
+.footer {
+    padding: 1px 10px !important;
+}
+
+.editor .selection .region {
+background-color: rgba(0, 0, 0, 0.2);
+}
+
+.tab-bar {
+    height: 42px !important;
+    background-color: black !important;
+    border-bottom: 1px solid grey !important;
+}
+
+.indent-guide {
+    color: rgba(250, 0, 0, 0.3) !important;
+
+}
+
+.editer {
+    border-right: 1px solid grey !important;
+}
+
+.list-item {
+    line-height: 10px !important;
+}
+
+@keyframes blink {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: blue;
+    }
+}
+
+.list-tree.has-collapsable-children .list-nested-item > .list-tree > li {
+    padding-left: 4px !important;
+}
+
+.atom-dock-toggle-button-visible
+{
+    display: none;
+}
+
+
+.editor.is-focused  .selection .region {
+    background-color: red;
+}
+
+.syntax--function {
+    color: gold !important;
+}
+
+.syntax--quoted {
+    color: rgb(255, 170, 213);
+}
+
+.syntax--keyword.syntax--control {
+    color: rgba(90, 250, 255, 1);
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.syntax--entity.syntax--function {
+    color: rgba(55, 250, 150, 0.9) !important;
+}
+
+.syntax--embedded {
+    font-weight: 400;
+    font-size: 110%;
+    line-height: 100%;
+    color: rgba(255, 0, 0, 0.9) !important;
+}
+
+.syntax--comment {
+    opacity: 0.6
+}
+
+.syntax--period {
+    background-color: rgba(90, 250, 255, 0.15);
+    color: lightblue;
+    border-radius: 1px;
+    font-weight: bold;
+    font-size: 110%;
+    line-height: 100%;
+    margin: 0 3px;
+}
+
+.syntax--operator {
+    font-weight: bold;
+    font-size: 110%;
+    line-height: 100%;
+    color: rgb(0, 150, 0) !important;
+}
+
+.syntax--storage.syntax--modifier {
+    color: orange
+}
+
+.syntax--bracket {
+    font-weight: bold;
+    font-size: 120%;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.syntax--object.syntax--property {
+    color: rgb(100, 150, 255);
+}
+
+.atom-clock {
+    font-size: 16px;
+    padding: 0px 15px;
+    background-color: rgba(100, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.texteditor.tab.sortable {
+    height: 40px !important;
+    background-color: black !important;
+}
+
+.texteditor.tab.sortable > .title, .texteditor.tab.sortable > .title::before, .texteditor.tab.sortable > .close-icon {
+    height: 40px !important;
+    line-height: 40px !important;
+}
+
+.list-tree {
+    background-color: black !important;
+}
