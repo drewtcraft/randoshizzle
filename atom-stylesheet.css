@@ -1,6 +1,18 @@
+html {
+	border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.editor .wrap-guide {
+	background-color: rgba(255, 255, 255, 0.1);
+}
 
 .gutter {
     background-color: black !important;
+}
+
+.editor {
+	border-left: 1px solid rgba(255, 255, 255, 0.2);
+
 }
 
 .footer {
@@ -8,13 +20,45 @@
 }
 
 .editor .selection .region {
-background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 .tab-bar {
-    height: 42px !important;
+    height: 22px !important;
     background-color: black !important;
     border-bottom: 1px solid grey !important;
+	border-top: 1px solid grey !important;
+}
+
+.list-nested-item.collapsed .list-item.path-row {
+	background-color: orange !important;
+	color: black;
+	border-bottom: 1px solid yellow !important;
+}
+
+.list-item.path-row {
+	background-color: yellow !important;
+	color: black;
+	border-bottom: 1px solid orange !important;
+
+}
+
+.match-row.selected .preview {
+	color: black !important;
+
+	.match.highlight-info {
+		color: rgb(170, 255, 62);
+	}
+}
+
+.close-icon {
+	height: 12px !important;
+	width: 12px !important;
+	top: 15px !important;
+}
+
+.close-icon::after {
+	line-height: 20px !important;
 }
 
 .indent-guide {
@@ -26,9 +70,7 @@ background-color: rgba(0, 0, 0, 0.2);
     border-right: 1px solid grey !important;
 }
 
-.list-item {
-    line-height: 10px !important;
-}
+
 
 @keyframes blink {
     from {
@@ -39,9 +81,7 @@ background-color: rgba(0, 0, 0, 0.2);
     }
 }
 
-.list-tree.has-collapsable-children .list-nested-item > .list-tree > li {
-    padding-left: 4px !important;
-}
+
 
 .atom-dock-toggle-button-visible
 {
@@ -123,13 +163,29 @@ background-color: rgba(0, 0, 0, 0.2);
 }
 
 .texteditor.tab.sortable {
-    height: 40px !important;
+    height: 20px !important;
     background-color: black !important;
 }
 
-.texteditor.tab.sortable > .title, .texteditor.tab.sortable > .title::before, .texteditor.tab.sortable > .close-icon {
-    height: 40px !important;
-    line-height: 40px !important;
+.texteditor.tab.sortable > .title, .texteditor.tab.sortable > .title::before {
+    height: 20px !important;
+    line-height: 20px !important;
+}
+
+.texteditor.tab.sortable {
+	border-right: 1px solid grey !important;
+}
+
+.tab-bar .tab {
+	line-height: 0px !important;
+}
+
+.tab-bar .tab .close-icon {
+	top: 4px !important;
+}
+
+.tab-bar .tab.active {
+	background-color: rgba(0, 255, 0, 0.2) !important;
 }
 
 .list-tree {
