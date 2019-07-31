@@ -1,0 +1,6 @@
+'atom-text-editor':
+    'ctrl-cmd-]': 'editor:auto-indent'
+
+'atom-workspace':
+	'alt-/': 'editor:insert-console-log'
+	'shift-cmd-j': 'editor:json-stringify'
